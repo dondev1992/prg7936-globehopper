@@ -36,7 +36,7 @@ if (config.env === 'development') {
   });
 
   router.use('/test', (req, res) => {
-    res.send({ message: "hello world!" });
+    res.send({ message: 'HURACHI!' });
   });
 }
 
