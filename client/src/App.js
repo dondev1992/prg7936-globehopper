@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import LoginPage from "./pages/LoginPage";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import NavBar from "./components/NavBar";
 
 const theme = createTheme();
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <NavBar />
       <LoginPage />
     </ThemeProvider>
   );

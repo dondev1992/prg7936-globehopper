@@ -23,15 +23,17 @@ const Login = () => {
 
   return (
     <Box
-      container
-      display="flex"
-      flexDirection={"column"}
-      component={"section"}
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        width: "30%",
+      }}
     >
       <TextField
+        required
         md={4}
         id="outlined-basic"
-        label="Outlined"
+        label="Name"
         variant="outlined"
         type="name"
         value={name}
@@ -39,7 +41,7 @@ const Login = () => {
       />
       <TextField
         id="outlined-basic"
-        label="Outlined"
+        label="Email"
         variant="outlined"
         type="email"
         value={email}
@@ -47,7 +49,7 @@ const Login = () => {
       />
       <TextField
         id="outlined-basic"
-        label="Outlined"
+        label="Password"
         variant="outlined"
         type="password"
         value={password}
