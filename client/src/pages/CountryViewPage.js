@@ -14,14 +14,14 @@ function CountryViewPage() {
   //   }, []);
   return (
     <Container>
-      <Box mt={5}>
-        <Typography variant="h2" component="h1">
+      <Box my={3}>
+        <Typography variant="h3" component="h1">
           {country.name}
         </Typography>
         <hr />
         <Box mt={5}>
           <img className="city-image" src={country.imageurl} alt="city" />
-          <Typography mt={2} component="p" variant="p" width={"80%"}>
+          <Typography mt={2} component="p" variant="p" width={"60%"}>
             {country.description}
           </Typography>
           <Typography variant="subtitle1" component="h5" mt={2}>
