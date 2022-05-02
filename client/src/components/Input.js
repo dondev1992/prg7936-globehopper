@@ -1,8 +1,8 @@
 import React from "react";
-import { Box, Button, TextField } from "@mui/material";
+import { Box, Button, Container, Link, TextField } from "@mui/material";
 import { useState } from "react";
 
-const Login = () => {
+const Input = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -12,17 +12,17 @@ const Login = () => {
   };
 
   const handleEmailChange = (e) => {
-    setName(e.target.value);
+    setEmail(e.target.value);
   };
 
   const handlePasswordChange = (e) => {
-    setName(e.target.value);
+    setPassword(e.target.value);
   };
 
   const handleLogin = () => {};
 
   return (
-    <Box
+    <Container
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -31,35 +31,36 @@ const Login = () => {
     >
       <TextField
         required
-        md={4}
-        id="outlined-basic"
         label="Name"
         variant="outlined"
         type="name"
         value={name}
         onChange={handleNameChange}
+        margin="dense"
       />
       <TextField
-        id="outlined-basic"
+        required
         label="Email"
         variant="outlined"
         type="email"
         value={email}
         onChange={handleEmailChange}
+        margin="dense"
       />
       <TextField
-        id="outlined-basic"
+        required
         label="Password"
         variant="outlined"
         type="password"
         value={password}
         onChange={handlePasswordChange}
+        margin="dense"
       />
       <Button variant={"contained"} onClick={() => handleLogin}>
         Login
       </Button>
-    </Box>
+    </Container>
   );
 };
 
-export default Login;
+export default Input;

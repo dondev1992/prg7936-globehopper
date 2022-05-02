@@ -2,13 +2,14 @@ import React from "react";
 import Input from "../components/Input";
 import { Box, Link, Typography } from "@mui/material";
 
-const LoginPage = () => {
+const RegisterPage = () => {
   return (
     <Box className="center-link">
-      <Typography component="h1" variant="h3" textAlign="center" margin={10}>
-        Login
+      <Typography component="h1" variant="h3" textAlign="center" marginTop={10}>
+        Register
       </Typography>
       <Input />
+
       <Link
         href="/"
         variant="body1"
@@ -16,10 +17,10 @@ const LoginPage = () => {
         underline="none"
         center="true"
       >
-        If you don't have an account, click HERE to register.
+        If an account, click HERE to login.
       </Link>
     </Box>
   );
 };
 
-export default LoginPage;
+export default RegisterPage;
