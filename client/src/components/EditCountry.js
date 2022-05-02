@@ -10,6 +10,10 @@ function EditCountry() {
   const [continent, setContinent] = useState("");
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState("");
+  const [countryName, setCountryName] = useState(country.name);
+  const [imageurl, setImageurl] = useState(country.imageurl);
+  const [population, setPopulation] = useState(country.population);
+  const [description, setDescription] = useState(country.description);
 
   const handleChange = (event) => {
     setContinent(event.target.value);
@@ -19,6 +23,18 @@ function EditCountry() {
 
   const handleCountryChange = (event) => {
     setCountry(event.target.value);
+  };
+  const handleCountryNameChange = (event) => {
+    setCountryName(event.target.value);
+  };
+  const handleImageurlChange = (event) => {
+    setImageurl(event.target.value);
+  };
+  const handlePopulationChange = (event) => {
+    setPopulation(event.target.value);
+  };
+  const handleDescriptionChange = (event) => {
+    setDescription(event.target.value);
   };
   console.log(country);
   return (
@@ -73,15 +89,51 @@ function EditCountry() {
             <Typography mt={2}>
               <strong>Name:</strong> {country.name}
             </Typography>
+            <TextField
+              required
+              label="Name of Country"
+              variant="outlined"
+              type="text"
+              value={countryName}
+              onChange={handleCountryNameChange}
+              margin="dense"
+            />
             <Typography mt={1}>
               <strong>Image URL:</strong> "{country.imageurl}"
             </Typography>
+            <TextField
+              required
+              variant="outlined"
+              type="text"
+              value={imageurl}
+              onChange={handleImageurlChange}
+              defaultValue={country.imageurl}
+              margin="dense"
+            />
             <Typography mt={1}>
               <strong>Population:</strong> {country.population}
             </Typography>
+            <TextField
+              required
+              variant="outlined"
+              type="text"
+              value={population}
+              onChange={handlePopulationChange}
+              defaultValue={country.population}
+              margin="dense"
+            />
             <Typography mt={1}>
               <strong>Description:</strong> {country.description}
             </Typography>
+            <TextField
+              required
+              label="Description"
+              variant="outlined"
+              type="text"
+              value={description}
+              onChange={handleDescriptionChange}
+              margin="dense"
+            />
           </Box>
         ) : null}
       </Box>
