@@ -2,17 +2,17 @@ const mongoose = require('mongoose');
 
 const citySchema = mongoose.Schema(
   {
-    name: {
+    city: {
       type: String,
       required: true,
     },
-    capitol: {
+    imageurl: {
+      type: String,
+    },
+    description: {
       type: String,
     },
     country: {
-      type: String,
-    },
-    imageurl: {
       type: String,
     },
     firstlandmark: {
