@@ -6,11 +6,17 @@ const countrySchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    listofcities: [],
+    imageurl: {
+      type: String,
+    },
+    description: {
+      type: String,
+    },
     population: {
       type: String,
     },
-    imageurl: {
+    cities: [],
+    population: {
       type: String,
     },
   },
