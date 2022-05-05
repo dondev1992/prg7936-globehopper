@@ -87,19 +87,19 @@ function EditCountry() {
         {country ? (
           <Box>
             <Typography mt={2}>
-              <strong>Name:</strong> {country.name}
+              <strong>Name:</strong>
             </Typography>
             <TextField
               required
-              label="Name of Country"
               variant="outlined"
               type="text"
               value={countryName}
               onChange={handleCountryNameChange}
+              defaultValue={country.name}
               margin="dense"
             />
             <Typography mt={1}>
-              <strong>Image URL:</strong> "{country.imageurl}"
+              <strong>Image URL:</strong>
             </Typography>
             <TextField
               required
@@ -111,7 +111,7 @@ function EditCountry() {
               margin="dense"
             />
             <Typography mt={1}>
-              <strong>Population:</strong> {country.population}
+              <strong>Population:</strong>
             </Typography>
             <TextField
               required
@@ -123,15 +123,15 @@ function EditCountry() {
               margin="dense"
             />
             <Typography mt={1}>
-              <strong>Description:</strong> {country.description}
+              <strong>Description:</strong>
             </Typography>
             <TextField
               required
-              label="Description"
               variant="outlined"
               type="text"
               value={description}
               onChange={handleDescriptionChange}
+              defaultValue={country.description}
               margin="dense"
             />
           </Box>

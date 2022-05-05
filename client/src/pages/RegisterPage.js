@@ -17,7 +17,7 @@ const RegisterPage = () => {
         underline="none"
         center="true"
       >
-        If an account, click HERE to login.
+        If you have an account, click HERE to login.
       </Link>
     </Box>
   );

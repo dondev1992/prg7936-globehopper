@@ -5,7 +5,7 @@ import { Box, Link, Typography } from "@mui/material";
 const LoginPage = () => {
   return (
     <Box className="center-link">
-      <Typography component="h1" variant="h3" textAlign="center" margin={10}>
+      <Typography component="h1" variant="h3" textAlign="center" marginTop={10}>
         Login
       </Typography>
       <Input />
