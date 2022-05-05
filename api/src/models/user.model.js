@@ -38,6 +38,10 @@ const userSchema = mongoose.Schema(
     preferences: {
       type: String,
     },
+    isadmin: {
+      type: Boolean,
+      default: false,
+    },
     role: {
       type: String,
       enum: roles,

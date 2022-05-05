@@ -133,6 +133,7 @@ function EditCountry() {
               value={description}
               onChange={handleDescriptionChange}
               margin="dense"
+              multiline
             />
           </Box>
         ) : null}

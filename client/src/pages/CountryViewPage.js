@@ -34,7 +34,7 @@ function CountryViewPage() {
         <Box mt={2}>
           <ul>
             {country.cities.map((city) => (
-              <li>
+              <li key={city.id}>
                 <Link to="/city" state={{ city }}>
                   {city.city}
                 </Link>
