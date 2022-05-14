@@ -11,7 +11,15 @@ import AdminPage from "./pages/AdminPage";
 import CityViewPage from "./pages/CityViewPage";
 import CountryViewPage from "./pages/CountryViewPage";
 
-const theme = createTheme();
+const theme = createTheme({
+  // palette: {
+  //   primary: {
+  //     main: purple,
+  //   },
+  // },
+});
+
+// export { purple };
 
 function App() {
   // const [testData, setTestData] = useState(null);
@@ -20,12 +28,15 @@ function App() {
   //   fetch("/v1/test")
   //     .then((res) => res.json())
   //     .then((data) => setTestData(data.message));
+
   // }, []);
+  // const listCountries = data.map((continent) => continent.countries);
+  // const getCountries = listCountries.map((country) => country.name);
 
   return (
     <ThemeProvider theme={theme}>
+      <NavBar />
       <BrowserRouter>
-        <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />

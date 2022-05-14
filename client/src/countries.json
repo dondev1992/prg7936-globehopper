@@ -1,0 +1,72 @@
+[
+  {
+    "name": "none",
+    "imageurl": "https://en.baaghitv.com/wp-content/uploads/2020/10/Antarctic_Nasa-photo-public-domain.png",
+    "description": "Antarctica is Earth's southernmost continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean, it contains the geographic South Pole. Antarctica is the fifth-largest continent, being nearly twice the size of Australia, and has an area of 14,200,000 km2 (5,500,000 sq mi). Most of Antarctica is covered by ice, with an average thickness of 1.9 km (1.2 mi).",
+    "population": "5,000",
+    "cities": [
+      "McMurdo Station",
+      "Cape Hallett",
+      "Ellsworth Scientific Station"
+    ],
+    "countryId": 1
+  },
+
+  {
+    "name": "Canada",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+    "description": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.",
+    "population": "38,526,760",
+    "cities": ["Toronto", "Montreal", "Vancouver"],
+    "countryId": 2
+  },
+  {
+    "name": "United States of America",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "description": "The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or simply America, is a country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and nine minor outlying islands.[g] At nearly 3.8 million square miles (9.8 million square kilometers), it is the world's fourth-largest country by land area and third-largest by total area. The United States shares land borders with Canada to the north and Mexico to the south as well as maritime borders with the Bahamas, Cuba, and Russia, among others.[h] With more than 331 million people, it is the third most populous country in the world. The national capital is Washington, D.C., and the most populous city and financial center is New York City.",
+    "population": "331,893,745",
+    "cities": ["New York", "Los Angelos", "Atlanta"],
+    "countryId": 3
+  },
+  {
+    "name": "Mexico",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png",
+    "description": "Mexico is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.[10] Mexico covers 1,972,550 square kilometers (761,610 sq mi),[11] making it the world's 13th-largest country by area; with approximately 126,014,024 inhabitants,[1] it is the 10th-most-populous country and has the most Spanish-speakers. Mexico is organized as a federation comprising 31 states and Mexico City,[12] its capital and largest metropolis. Other major urban areas include Guadalajara, Monterrey, Puebla, Toluca, Tijuana, Ciudad Juárez, and León.",
+    "population": "126,014,024",
+    "cities": ["Mexico City", "Cancun", "Puerto Vallarta"]
+  },
+  {
+    "name": "Brazil",
+    "imageurl": "https://cdn.britannica.com/47/6847-050-075C3C65/Flag-Brazil.jpg",
+    "description": "Brazil, officially the Federative Republic of Brazil, is the largest country in both South America and Latin America. At 8.5 million square kilometers and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous.",
+    "population": "212,688,125",
+    "cities": ["São Paulo", "Rio de Janeiro", "Brasília"]
+  },
+  {
+    "name": "Spain",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png",
+    "description": "Spain, a country on Europes Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters. Segovia has a medieval castle (the Alcázar) and an intact Roman aqueduct. Catalonias capital, Barcelona, is defined by Antoni Gaudís whimsical modernist landmarks like the Sagrada Família church.",
+    "population": "47,450,795",
+    "cities": ["Madrid", "Barcelona", "Valencia"]
+  },
+  {
+    "name": "Egypt",
+    "imageurl": "https://static.dw.com/image/60495947_303.jpg",
+    "description": "Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities.",
+    "population": "102,674,145",
+    "cities": ["Cairo", "Luxor", "Alexandria"]
+  },
+  {
+    "name": "China",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1200px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "description": "China, officially the People's Republic of China, is a country in East Asia. It is the world's most populous country, with a population of more than 1.4 billion. China spans five geographical time zones and borders 14 countries, the second most of any country in the world after Russia.",
+    "population": "1,412,600,000",
+    "cities": ["Hong Kong", "Shanghai", "Beijing"]
+  },
+  {
+    "name": "Victoria",
+    "description": "Victoria is a state in southeast Australia. It encompasses mountains, national parks, wineries and surfing beaches. Melbourne, the state capital, has a warren of 19th-century laneways, and a central arts precinct. The Great Ocean Road follows the coast west to Port Campbell National Park, where the Twelve Apostles are limestone stacks on the edge of the ocean.",
+    "population": "6,648,564",
+    "cities": ["Melbourne", "Sydney", "Ballarat"]
+  }
+]

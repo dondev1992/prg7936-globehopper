@@ -17,6 +17,16 @@ function CityViewPage(props) {
           <Typography component="p" variant="p" mt={2} width={"60%"}>
             {city.description}
           </Typography>
+          <Typography component="p" variant="p" mt={2} width={"60%"}>
+            <strong>Landmarks:</strong>
+          </Typography>
+          <Typography component="p" variant="p" width={"60%"}>
+            {city.firstlandmark}
+            <br />
+            {city.secondlandmark}
+            <br />
+            {city.thirdlandmark}
+          </Typography>
         </Box>
       </Box>
     </Container>

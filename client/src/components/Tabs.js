@@ -4,8 +4,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { AddCountry } from "../pages/AdminPage";
-import EditCountry from "./EditCountry";
+import EditCountry from "../components/EditCountry";
+import EditCity from "../components/EditCity";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -40,7 +40,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabs(props) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -68,7 +68,7 @@ export default function BasicTabs() {
         Item Two
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <EditCity />
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Three

@@ -56,7 +56,11 @@ const Input = () => {
         onChange={handlePasswordChange}
         margin="dense"
       />
-      <Button variant={"contained"} onClick={() => handleLogin}>
+      <Button
+        variant={"contained"}
+        onClick={() => handleLogin}
+        sx={{ backgroundColor: "purple" }}
+      >
         Login
       </Button>
     </Container>
