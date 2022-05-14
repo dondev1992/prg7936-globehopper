@@ -1,4 +1,4 @@
-import { Box, TextField, Typography } from "@mui/material";
+import { Box, Button, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
 import data from "../data.json";
 import InputLabel from "@mui/material/InputLabel";
@@ -39,17 +39,15 @@ function EditCountry() {
   console.log(country);
   return (
     <Box>
-      {/* <Typography variant="h4" component="h3">
-        Edit Country
-      </Typography> */}
       <Box>
-        <FormControl sx={{ m: 1, minWidth: 200 }} size="large">
-          <InputLabel id="demo-simple-select-label">Pick Continent</InputLabel>
+        <FormControl sx={{ minWidth: 400 }} size="large">
+          <Typography mt={2}>
+            <strong>Pick continent:</strong>
+          </Typography>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
             value={continent}
-            label="Pick Continent"
             onChange={handleChange}
           >
             {data.map((continent) => (
@@ -63,15 +61,14 @@ function EditCountry() {
 
         {continent && (
           <Box>
-            <FormControl sx={{ m: 1, minWidth: 200 }} size="large">
-              <InputLabel id="demo-simple-select-label">
-                Pick Country
-              </InputLabel>
+            <FormControl sx={{ minWidth: 400 }} size="large">
+              <Typography mt={2}>
+                <strong>Pick country:</strong>
+              </Typography>
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
                 value={country}
-                label="Pick Country"
                 onChange={handleCountryChange}
               >
                 {continent.countries.map((country) => (
@@ -97,6 +94,7 @@ function EditCountry() {
               onChange={handleCountryNameChange}
               defaultValue={country.name}
               margin="dense"
+              sx={{ minWidth: 400 }}
             />
             <Typography mt={1}>
               <strong>Image URL:</strong>
@@ -109,6 +107,7 @@ function EditCountry() {
               onChange={handleImageurlChange}
               defaultValue={country.imageurl}
               margin="dense"
+              sx={{ minWidth: 400 }}
             />
             <Typography mt={1}>
               <strong>Population:</strong>
@@ -121,6 +120,7 @@ function EditCountry() {
               onChange={handlePopulationChange}
               defaultValue={country.population}
               margin="dense"
+              sx={{ minWidth: 400 }}
             />
             <Typography mt={1}>
               <strong>Description:</strong>
@@ -133,10 +133,16 @@ function EditCountry() {
               onChange={handleDescriptionChange}
               defaultValue={country.description}
               margin="dense"
+              sx={{ minWidth: 700 }}
               multiline
             />
           </Box>
         ) : null}
+      </Box>
+      <Box mt={2}>
+        <Button variant="contained" sx={{ backgroundColor: "purple" }}>
+          Submit Changes
+        </Button>
       </Box>
     </Box>
   );

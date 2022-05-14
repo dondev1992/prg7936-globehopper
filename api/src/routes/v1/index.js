@@ -2,6 +2,9 @@ const express = require('express');
 const authRoute = require('./auth.route');
 const userRoute = require('./user.route');
 const docsRoute = require('./docs.route');
+const countryRoute = require('./country.route');
+const cityRoute = require('./city.route');
+const continentRoute = require('./continent.route');
 const config = require('../../config/config');
 
 const router = express.Router();
@@ -14,6 +17,18 @@ const defaultRoutes = [
   {
     path: '/users',
     route: userRoute,
+  },
+  {
+    path: '/countries',
+    route: countryRoute,
+  },
+  {
+    path: '/continents',
+    route: continentRoute,
+  },
+  {
+    path: '/cities',
+    route: cityRoute,
   },
 ];
 
