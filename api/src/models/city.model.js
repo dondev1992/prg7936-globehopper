@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { toJSON, paginate } = require('./plugins');
+const { toJSON } = require('./plugins');
 
 const citySchema = mongoose.Schema(
   {
@@ -44,8 +44,7 @@ const citySchema = mongoose.Schema(
 
 // add plugin that converts mongoose to json
 citySchema.plugin(toJSON);
-citySchema.plugin(paginate);
 
-const City = mongoose.model('city', citySchema);
+const City = mongoose.model('City', citySchema);
 
 module.exports = City;

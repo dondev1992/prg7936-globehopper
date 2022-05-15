@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { toJSON, paginate } = require('./plugins');
+const { toJSON } = require('./plugins');
 
 const continentSchema = mongoose.Schema(
   {
@@ -28,8 +28,7 @@ const continentSchema = mongoose.Schema(
 
 // add plugin that converts mongoose to json
 continentSchema.plugin(toJSON);
-continentSchema.plugin(paginate);
 
-const Continent = mongoose.model('continent', continentSchema);
+const Continent = mongoose.model('Continent', continentSchema);
 
 module.exports = Continent;

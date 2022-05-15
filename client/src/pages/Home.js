@@ -8,7 +8,7 @@ import data from "../data.json";
 function Home() {
   const [continents, setContinents] = useState();
   useEffect(() => {
-    fetch("/v1/continents")
+    fetch("/v1/countries")
       .then((res) => res.json())
       .then((data) => console.log(data));
   }, []);
