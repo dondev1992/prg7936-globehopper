@@ -1,24 +1,34 @@
 import React from "react";
-import { Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography } from "@mui/material";
 import Modal from "../components/Modal";
 
-function Card({ data, countries }) {
+function Card({ continent }) {
   return (
-    <div>
-      <Paper
-        sx={{
-          padding: "1rem",
-        }}
-        className="card"
-        elevation={5}
-      >
-        <Typography variant="h5" component="h3">
-          <Modal data={data} countries={countries} />
-        </Typography>
+    <Box
+      container
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
+      <Paper className="card" elevation={12}>
+        <Box
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <Typography variant="h5" component="h3">
+            <Modal continent={continent} />
+          </Typography>
+        </Box>
 
-        <img src={data.imageurl} alt="map" className="home-image" />
+        <Box px={3} pb={3}>
+          <img src={continent.imageurl} alt="map" className="home-image" />
+        </Box>
       </Paper>
-    </div>
+    </Box>
   );
 }
 

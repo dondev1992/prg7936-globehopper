@@ -4,8 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import EditCountry from "../components/EditCountry";
-import EditCity from "../components/EditCity";
+import AddCountry from "./AddCountry";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -55,23 +54,23 @@ export default function BasicTabs(props) {
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Tab label="Edit Country" {...a11yProps(0)} />
-          <Tab label="Add Country" {...a11yProps(1)} />
-          <Tab label="Edit City" {...a11yProps(2)} />
+          <Tab label="Add Country" {...a11yProps(0)} />
+          <Tab label="Edit Country" {...a11yProps(1)} />
           <Tab label="Add City" {...a11yProps(2)} />
+          <Tab label="Edit City" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <EditCountry />
+        <AddCountry />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        Edit Country
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <EditCity />
+        Add City
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Three
+        Edit City
       </TabPanel>
     </Box>
   );

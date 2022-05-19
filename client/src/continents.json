@@ -1,46 +1,44 @@
-{
-  "continent": [
-    {
-      "continent": "Antarctica",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/1024px-Antarctica_%28orthographic_projection%29.svg.png",
-      "description": "Antarctica is Earth's southernmost continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean, it contains the geographic South Pole. Antarctica is the fifth-largest continent, being nearly twice the size of Australia, and has an area of 14,200,000 km2 (5,500,000 sq mi). Most of Antarctica is covered by ice, with an average thickness of 1.9 km (1.2 mi).",
-      "countries": ["none"]
-    },
-    {
-      "continent": "North America",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/1024px-Location_North_America.svg.png",
-      "description": "North America is a continent in the Northern Hemisphere and almost entirely within the Western Hemisphere. It can also be described as the northern subcontinent of a single continent called America. It is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the southeast by South America and the Caribbean Sea, and to the west and south by the Pacific Ocean. Because it is on the North American Tectonic Plate, Greenland is included as a part of North America geographically.",
-      "countries": ["Canada", "United States of America", "Mexico"]
-    },
-    {
-      "continent": "South America",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/541px-South_America_%28orthographic_projection%29.svg.png",
-      "description": "South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. It can also be described as the southern subregion of a single continent called America.",
-      "countries": ["Brazil"]
-    },
-    {
-      "continent": "Europe",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/1024px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png",
-      "description": "Europe is a continent, also recognised as a part of Eurasia, located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. Comprising the westernmost peninsulas of Eurasia, it shares the continental landmass of Afro-Eurasia with both Asia and Africa.",
-      "countries": ["Spain"]
-    },
-    {
-      "continent": "Africa",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Africa_%28orthographic_projection%29.svg/1024px-Africa_%28orthographic_projection%29.svg.png",
-      "description": "Africa is the world's second-largest and second-most populous continent, after Asia in both cases. At about 30.3 million km² including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. With 1.3 billion people as of 2018, it accounts for about 16% of the world's human population.",
-      "countries": ["Egypt"]
-    },
-    {
-      "continent": "Asia",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/541px-Asia_%28orthographic_projection%29.svg.png",
-      "description": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe, and the continental landmass of Afro-Eurasia with Africa and Europe.",
-      "countries": ["China"]
-    },
-    {
-      "continent": "Austrailia",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/1024px-Australia_with_AAT_%28orthographic_projection%29.svg.png",
-      "description": "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. With an area of 7,617,930 square kilometres, Australia is the largest country by area in Oceania and the world's sixth-largest country.",
-      "countries": ["Victoria"]
-    }
-  ]
-}
+[
+  {
+    "continent": "Antarctica",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/1024px-Antarctica_%28orthographic_projection%29.svg.png",
+    "description": "Antarctica is Earth's southernmost continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean, it contains the geographic South Pole. Antarctica is the fifth-largest continent, being nearly twice the size of Australia, and has an area of 14,200,000 km2 (5,500,000 sq mi). Most of Antarctica is covered by ice, with an average thickness of 1.9 km (1.2 mi).",
+    "countries": ["none"]
+  },
+  {
+    "continent": "North America",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/1024px-Location_North_America.svg.png",
+    "description": "North America is a continent in the Northern Hemisphere and almost entirely within the Western Hemisphere. It can also be described as the northern subcontinent of a single continent called America. It is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the southeast by South America and the Caribbean Sea, and to the west and south by the Pacific Ocean. Because it is on the North American Tectonic Plate, Greenland is included as a part of North America geographically.",
+    "countries": ["Canada", "United States of America", "Mexico"]
+  },
+  {
+    "continent": "South America",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/541px-South_America_%28orthographic_projection%29.svg.png",
+    "description": "South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. It can also be described as the southern subregion of a single continent called America.",
+    "countries": ["Brazil"]
+  },
+  {
+    "continent": "Europe",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/1024px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png",
+    "description": "Europe is a continent, also recognised as a part of Eurasia, located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. Comprising the westernmost peninsulas of Eurasia, it shares the continental landmass of Afro-Eurasia with both Asia and Africa.",
+    "countries": ["Spain"]
+  },
+  {
+    "continent": "Africa",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Africa_%28orthographic_projection%29.svg/1024px-Africa_%28orthographic_projection%29.svg.png",
+    "description": "Africa is the world's second-largest and second-most populous continent, after Asia in both cases. At about 30.3 million km² including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area. With 1.3 billion people as of 2018, it accounts for about 16% of the world's human population.",
+    "countries": ["Egypt"]
+  },
+  {
+    "continent": "Asia",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/541px-Asia_%28orthographic_projection%29.svg.png",
+    "description": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe, and the continental landmass of Afro-Eurasia with Africa and Europe.",
+    "countries": ["China"]
+  },
+  {
+    "continent": "Austrailia",
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/1024px-Australia_with_AAT_%28orthographic_projection%29.svg.png",
+    "description": "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. With an area of 7,617,930 square kilometres, Australia is the largest country by area in Oceania and the world's sixth-largest country.",
+    "countries": ["Victoria"]
+  }
+]

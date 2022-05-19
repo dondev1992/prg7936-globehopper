@@ -1,274 +1,272 @@
-{
-  "city": [
-    {
-      "city": "McMurdo Station",
-      "capital": "no",
-      "imageurl": "https://www.usap.gov/videoclipsandmaps/images/mcmurdo-from-ob-hill.jpg",
-      "description": "McMurdo Station is a United States Antarctic research station on the south tip of Ross Island, which is in the New Zealand claimed Ross Dependency on the shore of McMurdo Sound in Antarctica. It is operated by the United States through the United States Antarctic Program, a branch of the National Science Foundation. The station is the largest community in Antarctica, capable of supporting up to 1,258 residents, and serves as one of three year-round United States Antarctic science facilities. All personnel and cargo going to or coming from Amundsen Scott South Pole Station first pass through McMurdo. By road, McMurdo is 3 kilometres (1.9 mi) from New Zealand's smaller Scott Base.",
-      "country": "Antarctica",
-      "firstlandmark": "Ross Island",
-      "secondlandmark": "none",
-      "thirdlandmark": "none"
-    },
-    {
-      "city": "Cape Hallett",
-      "capital": "no",
-      "imageurl": "https://www.antarctic.eu/wp-content/uploads/2015/02/e8_Cape-Adare_01Feb15_0272.jpg",
-      "description": "Cape Hallett is a snow-free area on the northern tip of the Hallett Peninsula on the Ross Sea coast of Victoria Land, East Antarctica. Cape Adare lies 100 km (62 mi) to the north.",
-      "country": "Antarctica",
-      "firstlandmark": "none",
-      "secondlandmark": "none",
-      "thirdlandmark": "none"
-    },
-    {
-      "city": "Ellsworth Scientific Station",
-      "capital": "no",
-      "imageurl": "https://cdn.mos.cms.futurecdn.net/4DPxXVKehCpXmeS2vKkoPV.jpg",
-      "description": "Ellsworth Scientific Station was a permanent, all year-round originally American, then Argentine Antarctic scientific research station named after American polar explorer Lincoln Ellsworth. It was located on Gould Bay, on the Filchner Ice Shelf.",
-      "country": "Antarctica",
-      "firstlandmark": "none",
-      "secondlandmark": "none",
-      "thirdlandmark": "none"
-    },
-    {
-      "city": "Toronto",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Toronto_Skyline_Summer_2020.jpg",
-      "description": "Toronto is the capital city of the Canadian province of Ontario. With a recorded population of 2,794,356 in 2021, it is the most populous city in Canada and the fourth most populous city in North America. The city is the anchor of the Golden Horseshoe, an urban agglomeration of 9,765,188 people surrounding the western end of Lake Ontario, while the Greater Toronto Area proper had a 2021 population of 6,712,341. Toronto is an international centre of business, finance, arts, and culture, and is recognized as one of the most multicultural and cosmopolitan cities in the world.",
-      "country": "Canada",
-      "firstlandmark": "CN Tower",
-      "secondlandmark": "Distillery Historic District",
-      "thirdlandmark": "Casa Loma"
-    },
-    {
-      "city": "Montreal",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Montreal_Montage_2020.jpg/800px-Montreal_Montage_2020.jpg",
-      "description": "Montreal is the second-most populous city in Canada and most populous city in the Canadian province of Quebec. Founded in 1642 as Ville-Marie, or City of Mary, it is named after Mount Royal, the triple-peaked hill around which the early city of Ville-Marie is built. The city is centred on the Island of Montreal, which obtained its name from the same origin as the city, and a few much smaller peripheral islands, the largest of which is Île Bizard. The city is situated 196 km (122 mi) east of the national capital Ottawa, and 258 km (160 mi) southwest of the provincial capital, Quebec City.",
-      "country": "Canada",
-      "firstlandmark": "Old Montreal",
-      "secondlandmark": "Notre-Dame Basilica",
-      "thirdlandmark": "Saint Joseph's Oratory of Mount Royal"
-    },
-    {
-      "city": "Vancouver",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Concord_Pacific_Master_Plan_Area.jpg/1920px-Concord_Pacific_Master_Plan_Area.jpg",
-      "description": "Vancouver is a major city in western Canada, located in the Lower Mainland region of British Columbia. As the most populous city in the province, the 2021 census recorded 662,248 people in the city, up from 631,486 in 2016. The Greater Vancouver area had a population of 2.6 million in 2021, making it the third-largest metropolitan area in Canada. Vancouver has the highest population density in Canada, with over 5,400 people per square kilometre. Vancouver is one of the most ethnically and linguistically diverse cities in Canada: 52 percent of its residents are not native English speakers, 48.9 percent are native speakers of neither English nor French, and 50.6 percent of residents belong to visible minority groups.",
-      "country": "Canada",
-      "firstlandmark": "Granville Island",
-      "secondlandmark": "Vancouver Downtown",
-      "thirdlandmark": "Bloedel Conservatory"
-    },
-    {
-      "city": "New York",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg/1920px-NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg",
-      "description": "New York, often called New York City (NYC) to distinguish it from the state of New York, is the most populous city in the United States. With a 2020 population of 8,804,190 distributed over 300.46 square miles (778.2 km2), New York City is also the most densely populated major city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban area. With over 20.1 million people in its metropolitan statistical area and 23.5 million in its combined statistical area as of 2020, New York is one of the world's most populous megacities. New York City has been described as the cultural, financial, and media capital of the world, and is a significant influence on commerce, entertainment, research, technology, education, politics, tourism, dining, art, fashion, and sports. It is the most photographed city in the world. Home to the headquarters of the United Nations, New York is an important center for international diplomacy, and has sometimes been called the capital of the world.",
-      "country": "United States of America",
-      "firstlandmark": "Central Park",
-      "secondlandmark": "Empire State Building",
-      "thirdlandmark": "Statue of Liberty"
-    },
-    {
-      "city": "Los Angelos",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/1920px-Los_Angeles_with_Mount_Baldy.jpg",
-      "description": " Los Ángeles ('The Angels'), often referred to by its initials L.A., is the largest city in California. With a 2020 population of 3,898,747 [10] it is the second-largest city in the United States, following New York City. Los Angeles is known for its Mediterranean climate, ethnic and cultural diversity, Hollywood film industry and sprawling metropolitan area.",
-      "country": "United States of America",
-      "firstlandmark": "Hollywood Sign",
-      "secondlandmark": "Disneyland Park",
-      "thirdlandmark": "Universal Studios"
-    },
-    {
-      "city": "Atlanta",
-      "capital": "no",
-      "imageurl": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTw83ZXM_HpG8MyHyj0QXvewqoLWkb40Wtoa1xS1wo7OtEU-4V3L6RGvfj-4amh",
-      "description": "Atlanta is the capital of the U.S. state of Georgia. It played an important part in both the Civil War and the 1960s Civil Rights Movement. Atlanta History Center chronicles the city's past, and the Martin Luther King Jr. National Historic Site is dedicated to the African-American leaders life and times.",
-      "country": "United States of America",
-      "firstlandmark": "Martin Luther King Jr. National Historic Site",
-      "secondlandmark": "Georgia Aquarium",
-      "thirdlandmark": "World of Coca-Cola"
-    },
-    {
-      "city": "Mexico City",
-      "capital": "yes",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/1920px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg",
-      "description": "Mexico City is the capital and largest city of Mexico, as well as the most populous city in North America, and is one of the country's 32 federal entities. Mexico City is one of the most important cultural and financial centers in the world. It is located in the Valley of Mexico, a large valley in the high plateaus in the center of Mexico, at an altitude of 2,240 meters (7,350 ft). The city has 16 demarcaciones territoriales, subdivisions colloquially known as alcaldías or boroughs.",
-      "country": "Mexico",
-      "firstlandmark": "El Zocalo",
-      "secondlandmark": "The Angel of Independence",
-      "thirdlandmark": "Ruins of Templo"
-    },
-    {
-      "city": "Cancun",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/1920px-Los_Angeles_with_Mount_Baldy.jpg",
-      "description": "Cancún, a Mexican city on the Yucatán Peninsula bordering the Caribbean Sea, is known for its beaches, numerous resorts and nightlife. Its composed of 2 distinct areas: the more traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise hotels, nightclubs, shops and restaurants. Cancun is also a famed destination for students during universities spring break period.",
-      "country": "Mexico",
-      "firstlandmark": "Chichen Itza",
-      "secondlandmark": "Tulum Ruins",
-      "thirdlandmark": "Xcaret"
-    },
-    {
-      "city": "Puerto Vallarta",
-      "capital": "no",
-      "imageurl": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcT4hiwy48DoxER23qDC0-aw5KKHypFe2JzsfSrWKBnk8z7nzD39YXoCyN6cNORg",
-      "description": "Puerto Vallarta is a resort town on Mexicos Pacific coast, in Jalisco state. It is known for its beaches, water sports and nightlife scene. Its cobblestone center is home to the ornate Nuestra Señora de Guadalupe church, boutique shops and a range of restaurants and bars. El Malecón is a beachside promenade with contemporary sculptures, as well as bars, lounges and nightclubs.",
-      "country": "Mexico",
-      "firstlandmark": "Malecón Boardwalk",
-      "secondlandmark": "Zona Romántica",
-      "thirdlandmark": "Parroquia de Nuestra Señora de Guadalupe"
-    },
-    {
-      "city": "São Paulo",
-      "capital": "no",
-      "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQoqreUs00a2DCQ2u_Xf0Xp6g_Vxj8u5yzsrh0W5cC59_W6D0vFaJ9yP1-5oM9L",
-      "description": "São Paulo, Brazils vibrant financial center, is among the world's most populous cities, with numerous cultural institutions and a rich architectural tradition. Its iconic buildings range from its neo-Gothic cathedral and the 1929 Martinelli skyscraper to modernist architect Oscar Niemeyers curvy Edifício Copan. The colonial-style Pátio do Colégio church marks where Jesuit priests founded the city in 1554.",
-      "country": "Brazil",
-      "firstlandmark": "Mirante Sesc Paulista",
-      "secondlandmark": "Distillery Historic District",
-      "thirdlandmark": "Jardins District"
-    },
-    {
-      "city": "Rio de Janeiro",
-      "capital": "no",
-      "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRh4ka_j4CUSjgBqkJhATbhO7GSaxykdW0U4uhbHF0Wo5dhwva7W0tnWA2mM7b3",
-      "description": "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, 38m Christ the Redeemer statue atop Mount Corcovado and for Sugarloaf Mountain, a granite peak with cable cars to its summit. The city is also known for its sprawling favelas (shanty towns). Its raucous Carnaval festival, featuring parade floats, flamboyant costumes and samba dancers, is considered the worlds largest.",
-      "country": "Brazil",
-      "firstlandmark": "Sugarloaf Mountain",
-      "secondlandmark": "Corcovado - Christ the Redeemer",
-      "thirdlandmark": "Morro da Urca"
-    },
-    {
-      "city": "Brasília",
-      "capital": "yes",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Brasilia_aerea_torredetv1304_4713.jpg",
-      "description": "Brasília, inaugurated as Brazils capital in 1960, is a planned city distinguished by its white, modern architecture, chiefly designed by Oscar Niemeyer. Laid out in the shape of an airplane, its “fuselage” is the Monumental Axis, 2 wide avenues flanking a massive park. In the “cockpit” is Praça dos Três Poderes, named for the 3 branches of government surrounding it.",
-      "country": "Brazil",
-      "firstlandmark": "Praça dos Tràs Poderes",
-      "secondlandmark": "Catedral Metropolitana Nossa Senhora Aparecida",
-      "thirdlandmark": "Palácio dos Arcos"
-    },
-    {
-      "city": "Madrid",
-      "capital": "yes",
-      "imageurl": "https://blog.singulart.com/wp-content/uploads/2020/05/dowtown-madrid-spain-1920x960-1.jpg",
-      "description": "Madrid, Spain's central capital, is a city of elegant boulevards and expansive, manicured parks such as the Buen Retiro. Its renowned for its rich repositories of European art, including the Prado Museums works by Goya, Velázquez and other Spanish masters. The heart of old Hapsburg Madrid is the portico-lined Plaza Mayor, and nearby is the baroque Royal Palace and Armory, displaying historic weaponry.",
-      "country": "Spain",
-      "firstlandmark": "Santiago Bernabeu Stadium",
-      "secondlandmark": "Royal Palace of Madrid",
-      "thirdlandmark": "Plaza Mayor"
-    },
-    {
-      "city": "Barcelona",
-      "capital": "no",
-      "imageurl": "https://www.barcelona-tourist-guide.com/images/int/attractions/sagrada-familia/L550/sagrada-familia-barcelona-8439.jpg",
-      "description": "Barcelona, the cosmopolitan capital of Spains Catalonia region, is known for its art and architecture. The fantastical Sagrada Família church and other modernist landmarks designed by Antoni Gaudí dot the city. Museu Picasso and Fundació Joan Miró feature modern art by their namesakes. City history museum MUHBA, includes several Roman archaeological sites.",
-      "country": "Spain",
-      "firstlandmark": "La Sagrada Família",
-      "secondlandmark": "Park Güell",
-      "thirdlandmark": "Mercado de La Boqueria"
-    },
-    {
-      "city": "Valencia",
-      "capital": "no",
-      "imageurl": "https://www.planetware.com/photos-large/E/spain-valencia-city-of-arts-and-sciences.jpg",
-      "description": "The port city of Valencia lies on Spains southeastern coast, where the Turia River meets the Mediterranean Sea. Its known for its City of Arts and Sciences, with futuristic structures including a planetarium, an oceanarium and an interactive museum. Valencia also has several beaches, including some within nearby Albufera Park, a wetlands reserve with a lake and walking trails.",
-      "country": "Spain",
-      "firstlandmark": " Central Market of Valencia",
-      "secondlandmark": "La Lonja de la Seda",
-      "thirdlandmark": "Valencia Cathedral"
-    },
-    {
-      "city": "Cairo",
-      "capital": "yes",
-      "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcS9CPzWZAitB8DNnX7W5DiH5mMZO3Rf_gzXbOELkMZZtwifaUkLlRAqnhgn2Bup",
-      "description": "Cairo, Egypts sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts. Nearby, Giza is the site of the iconic pyramids and Great Sphinx, dating to the 26th century BC. In Gezira Islands leafy Zamalek district, 187m Cairo Tower affords panoramic city views.",
-      "country": "Egypt",
-      "firstlandmark": "Coptic Cairo",
-      "secondlandmark": "Mosque of Muhammad Ali",
-      "thirdlandmark": "Cave Church"
-    },
-    {
-      "city": "Luxor",
-      "capital": "no",
-      "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSL5fbb2yvzzmTM8t9TWjYtwOGh6vLK1cvFQe8gG6NRp72-OYoE8G_YdZKQkQo6",
-      "description": "Luxor is a city on the east bank of the Nile River in southern Egypt. It's on the site of ancient Thebes, the pharaohs capital at the height of their power, during the 16th thru 11th centuries B.C. Today's city surrounds 2 huge, surviving ancient monuments: graceful Luxor Temple and Karnak Temple, a mile north. The royal tombs of the Valley of the Kings and the Valley of the Queens are on the rivers west bank .",
-      "country": "Egypt",
-      "firstlandmark": "Temple of Karnak",
-      "secondlandmark": "Valley of the Kings",
-      "thirdlandmark": "Luxor Temple"
-    },
-    {
-      "city": "Alexandria",
-      "capital": "no",
-      "imageurl": "https://www.planetware.com/photos-large/EGY/egypt-alexandria-fort-qaitbey.jpg",
-      "description": "Alexandria is a Mediterranean port city in Egypt. During the Hellenistic period, it was home to a lighthouse ranking among the Seven Wonders of the Ancient World as well as a storied library. Today the library is reincarnated in the disc-shaped, ultramodern Bibliotheca Alexandrina. The city also has Greco-Roman landmarks, old-world cafes and sandy beaches. Its 15th-century seafront Qaitbay Citadel is now a museum.",
-      "country": "Egypt",
-      "firstlandmark": "Bibliotheca Alexandrina",
-      "secondlandmark": "Catacombs of Kom el Shoqafa",
-      "thirdlandmark": "Fort Qaitbey"
-    },
-    {
-      "city": "Hong Kong",
-      "capital": "no",
-      "imageurl": "https://cdn.britannica.com/96/84796-050-C4DEA436/Hong-Kong-Island-Victoria-Peak.jpg",
-      "description": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China.",
-      "country": "China",
-      "firstlandmark": "Tian Tan Buddha (Big Buddha)",
-      "secondlandmark": "Victoria Peak (The Peak)",
-      "thirdlandmark": "Lantau island"
-    },
-    {
-      "city": "Shanghai",
-      "capital": "no",
-      "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRfLNMgVJbPnzfYSs60c5dMUUI7BeIT2lbpqLaE7gzbh_9_B6McuNCJV5uZBvMh",
-      "description": "Shanghai, on Chinas central coast, is the country's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises the Pudong districts futuristic skyline, including 632m Shanghai Tower and the Oriental Pearl TV Tower, with distinctive pink spheres. Sprawling Yu Garden has traditional pavilions, towers and ponds.",
-      "country": "China",
-      "firstlandmark": "The Bund (Wai Tan)",
-      "secondlandmark": "Shanghai Tower",
-      "thirdlandmark": "Oriental Pearl Tower (Dongfang Mingzhu)"
-    },
-    {
-      "city": "Beijing",
-      "capital": "yes",
-      "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQJObaYVemaFLq1ZFN4R3fSNE-1E5TE1N80Piv2_p8PoGloiiLmGtkQiy-ywjOz",
-      "description": "Beijing, Chinas sprawling capital, has history stretching back 3 millennia. Yet its known as much for modern architecture as its ancient sites such as the grand Forbidden City complex, the imperial palace during the Ming and Qing dynasties. Nearby, the massive Tiananmen Square pedestrian plaza is the site of Mao Zedongs mausoleum and the National Museum of China, displaying a vast collection of cultural relics.",
-      "country": "China",
-      "firstlandmark": "The Great Wall. the Great Wall of China",
-      "secondlandmark": "The Forbidden City",
-      "thirdlandmark": "The Temple Of Heaven"
-    },
-    {
-      "city": "Melbourne",
-      "capital": "no",
-      "imageurl": "https://cdn.britannica.com/64/190464-050-B74E1FD9/view-central-business-district-Melbourne-train-station.jpg",
-      "description": "Melbourne is the coastal capital of the southeastern Australian state of Victoria. At the city's centre is the modern Federation Square development, with plazas, bars, and restaurants by the Yarra River. In the Southbank area, the Melbourne Arts Precinct is the site of Arts Centre Melbourne (a performing arts complex) and the National Gallery of Victoria, with Australian and indigenous art.",
-      "country": "Victoria",
-      "firstlandmark": "Melbourne Cricket Ground",
-      "secondlandmark": "Eureka Skydeck",
-      "thirdlandmark": "Shrine of Remembrance"
-    },
-    {
-      "city": "Sydney",
-      "capital": "no",
-      "imageurl": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQxAT1f2L3ZChLbof11eXEwem4MORjcHecAOmy534jtI5W7thtJ9k_BZcdVAENL",
-      "description": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Towers outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.",
-      "country": "Victoria",
-      "firstlandmark": "Sydney Observatory",
-      "secondlandmark": "Hyde Park Barracks",
-      "thirdlandmark": "Queen Victoria Building"
-    },
-    {
-      "city": "Ballarat",
-      "capital": "no",
-      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Aerialviewgardens.jpg",
-      "description": "Ballarat is a city in the Central Highlands of Victoria, Australia. In 2021, Ballarat had a population of 113,183, making it the third-largest city in Victoria. Within months of Victoria separating from the colony of New South Wales in 1851, gold was discovered near Ballarat, sparking the Victorian gold rush.",
-      "country": "Victoria",
-      "firstlandmark": "Sovereign Hill",
-      "secondlandmark": "Australian Ex-Prisoners of War Memorial",
-      "thirdlandmark": "Arch of Victory"
-    }
-  ]
-}
+[
+  {
+    "city": "McMurdo Station",
+    "capital": false,
+    "imageurl": "https://www.usap.gov/videoclipsandmaps/images/mcmurdo-from-ob-hill.jpg",
+    "description": "McMurdo Station is a United States Antarctic research station on the south tip of Ross Island, which is in the New Zealand claimed Ross Dependency on the shore of McMurdo Sound in Antarctica. It is operated by the United States through the United States Antarctic Program, a branch of the National Science Foundation. The station is the largest community in Antarctica, capable of supporting up to 1,258 residents, and serves as one of three year-round United States Antarctic science facilities. All personnel and cargo going to or coming from Amundsen Scott South Pole Station first pass through McMurdo. By road, McMurdo is 3 kilometres (1.9 mi) from New Zealand's smaller Scott Base.",
+    "country": "6281d7389b7e19b4104ca008",
+    "firstlandmark": "Ross Island",
+    "secondlandmark": "none",
+    "thirdlandmark": "none"
+  },
+  {
+    "city": "Cape Hallett",
+    "capital": false,
+    "imageurl": "https://www.antarctic.eu/wp-content/uploads/2015/02/e8_Cape-Adare_01Feb15_0272.jpg",
+    "description": "Cape Hallett is a snow-free area on the northern tip of the Hallett Peninsula on the Ross Sea coast of Victoria Land, East Antarctica. Cape Adare lies 100 km (62 mi) to the north.",
+    "country": "6281d7389b7e19b4104ca008",
+    "firstlandmark": "none",
+    "secondlandmark": "none",
+    "thirdlandmark": "none"
+  },
+  {
+    "city": "Ellsworth Scientific Station",
+    "capital": false,
+    "imageurl": "https://cdn.mos.cms.futurecdn.net/4DPxXVKehCpXmeS2vKkoPV.jpg",
+    "description": "Ellsworth Scientific Station was a permanent, all year-round originally American, then Argentine Antarctic scientific research station named after American polar explorer Lincoln Ellsworth. It was located on Gould Bay, on the Filchner Ice Shelf.",
+    "country": "6281d7389b7e19b4104ca008",
+    "firstlandmark": "none",
+    "secondlandmark": "none",
+    "thirdlandmark": "none"
+  },
+  {
+    "city": "Toronto",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Toronto_Skyline_Summer_2020.jpg",
+    "description": "Toronto is the capital city of the Canadian province of Ontario. With a recorded population of 2,794,356 in 2021, it is the most populous city in Canada and the fourth most populous city in North America. The city is the anchor of the Golden Horseshoe, an urban agglomeration of 9,765,188 people surrounding the western end of Lake Ontario, while the Greater Toronto Area proper had a 2021 population of 6,712,341. Toronto is an international centre of business, finance, arts, and culture, and is recognized as one of the most multicultural and cosmopolitan cities in the world.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "CN Tower",
+    "secondlandmark": "Distillery Historic District",
+    "thirdlandmark": "Casa Loma"
+  },
+  {
+    "city": "Montreal",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Montreal_Montage_2020.jpg/800px-Montreal_Montage_2020.jpg",
+    "description": "Montreal is the second-most populous city in Canada and most populous city in the Canadian province of Quebec. Founded in 1642 as Ville-Marie, or City of Mary, it is named after Mount Royal, the triple-peaked hill around which the early city of Ville-Marie is built. The city is centred on the Island of Montreal, which obtained its name from the same origin as the city, and a few much smaller peripheral islands, the largest of which is Île Bizard. The city is situated 196 km (122 mi) east of the national capital Ottawa, and 258 km (160 mi) southwest of the provincial capital, Quebec City.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Old Montreal",
+    "secondlandmark": "Notre-Dame Basilica",
+    "thirdlandmark": "Saint Joseph's Oratory of Mount Royal"
+  },
+  {
+    "city": "Vancouver",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Concord_Pacific_Master_Plan_Area.jpg/1920px-Concord_Pacific_Master_Plan_Area.jpg",
+    "description": "Vancouver is a major city in western Canada, located in the Lower Mainland region of British Columbia. As the most populous city in the province, the 2021 census recorded 662,248 people in the city, up from 631,486 in 2016. The Greater Vancouver area had a population of 2.6 million in 2021, making it the third-largest metropolitan area in Canada. Vancouver has the highest population density in Canada, with over 5,400 people per square kilometre. Vancouver is one of the most ethnically and linguistically diverse cities in Canada: 52 percent of its residents are not native English speakers, 48.9 percent are native speakers of neither English nor French, and 50.6 percent of residents belong to visible minority groups.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Granville Island",
+    "secondlandmark": "Vancouver Downtown",
+    "thirdlandmark": "Bloedel Conservatory"
+  },
+  {
+    "city": "New York",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg/1920px-NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg",
+    "description": "New York, often called New York City (NYC) to distinguish it from the state of New York, is the most populous city in the United States. With a 2020 population of 8,804,190 distributed over 300.46 square miles (778.2 km2), New York City is also the most densely populated major city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban area. With over 20.1 million people in its metropolitan statistical area and 23.5 million in its combined statistical area as of 2020, New York is one of the world's most populous megacities. New York City has been described as the cultural, financial, and media capital of the world, and is a significant influence on commerce, entertainment, research, technology, education, politics, tourism, dining, art, fashion, and sports. It is the most photographed city in the world. Home to the headquarters of the United Nations, New York is an important center for international diplomacy, and has sometimes been called the capital of the world.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Central Park",
+    "secondlandmark": "Empire State Building",
+    "thirdlandmark": "Statue of Liberty"
+  },
+  {
+    "city": "Los Angelos",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/1920px-Los_Angeles_with_Mount_Baldy.jpg",
+    "description": " Los Ángeles ('The Angels'), often referred to by its initials L.A., is the largest city in California. With a 2020 population of 3,898,747 [10] it is the second-largest city in the United States, following New York City. Los Angeles is known for its Mediterranean climate, ethnic and cultural diversity, Hollywood film industry and sprawling metropolitan area.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Hollywood Sign",
+    "secondlandmark": "Disneyland Park",
+    "thirdlandmark": "Universal Studios"
+  },
+  {
+    "city": "Atlanta",
+    "capital": false,
+    "imageurl": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTw83ZXM_HpG8MyHyj0QXvewqoLWkb40Wtoa1xS1wo7OtEU-4V3L6RGvfj-4amh",
+    "description": "Atlanta is the capital of the U.S. state of Georgia. It played an important part in both the Civil War and the 1960s Civil Rights Movement. Atlanta History Center chronicles the city's past, and the Martin Luther King Jr. National Historic Site is dedicated to the African-American leaders life and times.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Martin Luther King Jr. National Historic Site",
+    "secondlandmark": "Georgia Aquarium",
+    "thirdlandmark": "World of Coca-Cola"
+  },
+  {
+    "city": "Mexico City",
+    "capital": true,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/1920px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg",
+    "description": "Mexico City is the capital and largest city of Mexico, as well as the most populous city in North America, and is one of the country's 32 federal entities. Mexico City is one of the most important cultural and financial centers in the world. It is located in the Valley of Mexico, a large valley in the high plateaus in the center of Mexico, at an altitude of 2,240 meters (7,350 ft). The city has 16 demarcaciones territoriales, subdivisions colloquially known as alcaldías or boroughs.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "El Zocalo",
+    "secondlandmark": "The Angel of Independence",
+    "thirdlandmark": "Ruins of Templo"
+  },
+  {
+    "city": "Cancun",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/1920px-Los_Angeles_with_Mount_Baldy.jpg",
+    "description": "Cancún, a Mexican city on the Yucatán Peninsula bordering the Caribbean Sea, is known for its beaches, numerous resorts and nightlife. Its composed of 2 distinct areas: the more traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise hotels, nightclubs, shops and restaurants. Cancun is also a famed destination for students during universities spring break period.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Chichen Itza",
+    "secondlandmark": "Tulum Ruins",
+    "thirdlandmark": "Xcaret"
+  },
+  {
+    "city": "Puerto Vallarta",
+    "capital": false,
+    "imageurl": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcT4hiwy48DoxER23qDC0-aw5KKHypFe2JzsfSrWKBnk8z7nzD39YXoCyN6cNORg",
+    "description": "Puerto Vallarta is a resort town on Mexicos Pacific coast, in Jalisco state. It is known for its beaches, water sports and nightlife scene. Its cobblestone center is home to the ornate Nuestra Señora de Guadalupe church, boutique shops and a range of restaurants and bars. El Malecón is a beachside promenade with contemporary sculptures, as well as bars, lounges and nightclubs.",
+    "country": "6281d7389b7e19b4104ca009",
+    "firstlandmark": "Malecón Boardwalk",
+    "secondlandmark": "Zona Romántica",
+    "thirdlandmark": "Parroquia de Nuestra Señora de Guadalupe"
+  },
+  {
+    "city": "São Paulo",
+    "capital": false,
+    "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQoqreUs00a2DCQ2u_Xf0Xp6g_Vxj8u5yzsrh0W5cC59_W6D0vFaJ9yP1-5oM9L",
+    "description": "São Paulo, Brazils vibrant financial center, is among the world's most populous cities, with numerous cultural institutions and a rich architectural tradition. Its iconic buildings range from its neo-Gothic cathedral and the 1929 Martinelli skyscraper to modernist architect Oscar Niemeyers curvy Edifício Copan. The colonial-style Pátio do Colégio church marks where Jesuit priests founded the city in 1554.",
+    "country": "6281d7389b7e19b4104ca00a",
+    "firstlandmark": "Mirante Sesc Paulista",
+    "secondlandmark": "Distillery Historic District",
+    "thirdlandmark": "Jardins District"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "capital": false,
+    "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRh4ka_j4CUSjgBqkJhATbhO7GSaxykdW0U4uhbHF0Wo5dhwva7W0tnWA2mM7b3",
+    "description": "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, 38m Christ the Redeemer statue atop Mount Corcovado and for Sugarloaf Mountain, a granite peak with cable cars to its summit. The city is also known for its sprawling favelas (shanty towns). Its raucous Carnaval festival, featuring parade floats, flamboyant costumes and samba dancers, is considered the worlds largest.",
+    "country": "6281d7389b7e19b4104ca00a",
+    "firstlandmark": "Sugarloaf Mountain",
+    "secondlandmark": "Corcovado - Christ the Redeemer",
+    "thirdlandmark": "Morro da Urca"
+  },
+  {
+    "city": "Brasília",
+    "capital": true,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Brasilia_aerea_torredetv1304_4713.jpg",
+    "description": "Brasília, inaugurated as Brazils capital in 1960, is a planned city distinguished by its white, modern architecture, chiefly designed by Oscar Niemeyer. Laid out in the shape of an airplane, its “fuselage” is the Monumental Axis, 2 wide avenues flanking a massive park. In the “cockpit” is Praça dos Três Poderes, named for the 3 branches of government surrounding it.",
+    "country": "6281d7389b7e19b4104ca00a",
+    "firstlandmark": "Praça dos Tràs Poderes",
+    "secondlandmark": "Catedral Metropolitana Nossa Senhora Aparecida",
+    "thirdlandmark": "Palácio dos Arcos"
+  },
+  {
+    "city": "Madrid",
+    "capital": true,
+    "imageurl": "https://blog.singulart.com/wp-content/uploads/2020/05/dowtown-madrid-spain-1920x960-1.jpg",
+    "description": "Madrid, Spain's central capital, is a city of elegant boulevards and expansive, manicured parks such as the Buen Retiro. Its renowned for its rich repositories of European art, including the Prado Museums works by Goya, Velázquez and other Spanish masters. The heart of old Hapsburg Madrid is the portico-lined Plaza Mayor, and nearby is the baroque Royal Palace and Armory, displaying historic weaponry.",
+    "country": "6281d7389b7e19b4104ca00b",
+    "firstlandmark": "Santiago Bernabeu Stadium",
+    "secondlandmark": "Royal Palace of Madrid",
+    "thirdlandmark": "Plaza Mayor"
+  },
+  {
+    "city": "Barcelona",
+    "capital": false,
+    "imageurl": "https://www.barcelona-tourist-guide.com/images/int/attractions/sagrada-familia/L550/sagrada-familia-barcelona-8439.jpg",
+    "description": "Barcelona, the cosmopolitan capital of Spains Catalonia region, is known for its art and architecture. The fantastical Sagrada Família church and other modernist landmarks designed by Antoni Gaudí dot the city. Museu Picasso and Fundació Joan Miró feature modern art by their namesakes. City history museum MUHBA, includes several Roman archaeological sites.",
+    "country": "6281d7389b7e19b4104ca00b",
+    "firstlandmark": "La Sagrada Família",
+    "secondlandmark": "Park Güell",
+    "thirdlandmark": "Mercado de La Boqueria"
+  },
+  {
+    "city": "Valencia",
+    "capital": false,
+    "imageurl": "https://www.planetware.com/photos-large/E/spain-valencia-city-of-arts-and-sciences.jpg",
+    "description": "The port city of Valencia lies on Spains southeastern coast, where the Turia River meets the Mediterranean Sea. Its known for its City of Arts and Sciences, with futuristic structures including a planetarium, an oceanarium and an interactive museum. Valencia also has several beaches, including some within nearby Albufera Park, a wetlands reserve with a lake and walking trails.",
+    "country": "6281d7389b7e19b4104ca00b",
+    "firstlandmark": " Central Market of Valencia",
+    "secondlandmark": "La Lonja de la Seda",
+    "thirdlandmark": "Valencia Cathedral"
+  },
+  {
+    "city": "Cairo",
+    "capital": true,
+    "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcS9CPzWZAitB8DNnX7W5DiH5mMZO3Rf_gzXbOELkMZZtwifaUkLlRAqnhgn2Bup",
+    "description": "Cairo, Egypts sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts. Nearby, Giza is the site of the iconic pyramids and Great Sphinx, dating to the 26th century BC. In Gezira Islands leafy Zamalek district, 187m Cairo Tower affords panoramic city views.",
+    "country": "6281d7389b7e19b4104ca00c",
+    "firstlandmark": "Coptic Cairo",
+    "secondlandmark": "Mosque of Muhammad Ali",
+    "thirdlandmark": "Cave Church"
+  },
+  {
+    "city": "Luxor",
+    "capital": false,
+    "imageurl": "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSL5fbb2yvzzmTM8t9TWjYtwOGh6vLK1cvFQe8gG6NRp72-OYoE8G_YdZKQkQo6",
+    "description": "Luxor is a city on the east bank of the Nile River in southern Egypt. It's on the site of ancient Thebes, the pharaohs capital at the height of their power, during the 16th thru 11th centuries B.C. Today's city surrounds 2 huge, surviving ancient monuments: graceful Luxor Temple and Karnak Temple, a mile north. The royal tombs of the Valley of the Kings and the Valley of the Queens are on the rivers west bank .",
+    "country": "6281d7389b7e19b4104ca00c",
+    "firstlandmark": "Temple of Karnak",
+    "secondlandmark": "Valley of the Kings",
+    "thirdlandmark": "Luxor Temple"
+  },
+  {
+    "city": "Alexandria",
+    "capital": false,
+    "imageurl": "https://www.planetware.com/photos-large/EGY/egypt-alexandria-fort-qaitbey.jpg",
+    "description": "Alexandria is a Mediterranean port city in Egypt. During the Hellenistic period, it was home to a lighthouse ranking among the Seven Wonders of the Ancient World as well as a storied library. Today the library is reincarnated in the disc-shaped, ultramodern Bibliotheca Alexandrina. The city also has Greco-Roman landmarks, old-world cafes and sandy beaches. Its 15th-century seafront Qaitbay Citadel is now a museum.",
+    "country": "6281d7389b7e19b4104ca00c",
+    "firstlandmark": "Bibliotheca Alexandrina",
+    "secondlandmark": "Catacombs of Kom el Shoqafa",
+    "thirdlandmark": "Fort Qaitbey"
+  },
+  {
+    "city": "Hong Kong",
+    "capital": false,
+    "imageurl": "https://cdn.britannica.com/96/84796-050-C4DEA436/Hong-Kong-Island-Victoria-Peak.jpg",
+    "description": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China.",
+    "country": "6281d7389b7e19b4104ca00d",
+    "firstlandmark": "Tian Tan Buddha (Big Buddha)",
+    "secondlandmark": "Victoria Peak (The Peak)",
+    "thirdlandmark": "Lantau island"
+  },
+  {
+    "city": "Shanghai",
+    "capital": false,
+    "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRfLNMgVJbPnzfYSs60c5dMUUI7BeIT2lbpqLaE7gzbh_9_B6McuNCJV5uZBvMh",
+    "description": "Shanghai, on Chinas central coast, is the country's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises the Pudong districts futuristic skyline, including 632m Shanghai Tower and the Oriental Pearl TV Tower, with distinctive pink spheres. Sprawling Yu Garden has traditional pavilions, towers and ponds.",
+    "country": "6281d7389b7e19b4104ca00d",
+    "firstlandmark": "The Bund (Wai Tan)",
+    "secondlandmark": "Shanghai Tower",
+    "thirdlandmark": "Oriental Pearl Tower (Dongfang Mingzhu)"
+  },
+  {
+    "city": "Beijing",
+    "capital": true,
+    "imageurl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQJObaYVemaFLq1ZFN4R3fSNE-1E5TE1N80Piv2_p8PoGloiiLmGtkQiy-ywjOz",
+    "description": "Beijing, Chinas sprawling capital, has history stretching back 3 millennia. Yet its known as much for modern architecture as its ancient sites such as the grand Forbidden City complex, the imperial palace during the Ming and Qing dynasties. Nearby, the massive Tiananmen Square pedestrian plaza is the site of Mao Zedongs mausoleum and the National Museum of China, displaying a vast collection of cultural relics.",
+    "country": "6281d7389b7e19b4104ca00d",
+    "firstlandmark": "The Great Wall. the Great Wall of China",
+    "secondlandmark": "The Forbidden City",
+    "thirdlandmark": "The Temple Of Heaven"
+  },
+  {
+    "city": "Melbourne",
+    "capital": false,
+    "imageurl": "https://cdn.britannica.com/64/190464-050-B74E1FD9/view-central-business-district-Melbourne-train-station.jpg",
+    "description": "Melbourne is the coastal capital of the southeastern Australian state of Victoria. At the city's centre is the modern Federation Square development, with plazas, bars, and restaurants by the Yarra River. In the Southbank area, the Melbourne Arts Precinct is the site of Arts Centre Melbourne (a performing arts complex) and the National Gallery of Victoria, with Australian and indigenous art.",
+    "country": "6281d7389b7e19b4104ca00e",
+    "firstlandmark": "Melbourne Cricket Ground",
+    "secondlandmark": "Eureka Skydeck",
+    "thirdlandmark": "Shrine of Remembrance"
+  },
+  {
+    "city": "Sydney",
+    "capital": false,
+    "imageurl": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQxAT1f2L3ZChLbof11eXEwem4MORjcHecAOmy534jtI5W7thtJ9k_BZcdVAENL",
+    "description": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Towers outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.",
+    "country": "6281d7389b7e19b4104ca00e",
+    "firstlandmark": "Sydney Observatory",
+    "secondlandmark": "Hyde Park Barracks",
+    "thirdlandmark": "Queen Victoria Building"
+  },
+  {
+    "city": "Ballarat",
+    "capital": false,
+    "imageurl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Aerialviewgardens.jpg",
+    "description": "Ballarat is a city in the Central Highlands of Victoria, Australia. In 2021, Ballarat had a population of 113,183, making it the third-largest city in Victoria. Within months of Victoria separating from the colony of New South Wales in 1851, gold was discovered near Ballarat, sparking the Victorian gold rush.",
+    "country": "6281d7389b7e19b4104ca00e",
+    "firstlandmark": "Sovereign Hill",
+    "secondlandmark": "Australian Ex-Prisoners of War Memorial",
+    "thirdlandmark": "Arch of Victory"
+  }
+]

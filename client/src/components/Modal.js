@@ -20,20 +20,20 @@ const style = {
   color: "black",
 };
 
-export default function TransitionsModal(props) {
+export default function TransitionsModal({ continent }) {
   const [open, setOpen] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(true);
+  const [country, setCountry] = React.useState([]);
+
   const handleOpen = () => {
     setOpen(true);
-    console.log(props.data);
   };
   const handleClose = () => setOpen(false);
-
-  // let countries = props.countries.map((country) => country.name);
 
   return (
     <div>
       <Button sx={{ fontSize: "1.25rem", color: "black" }} onClick={handleOpen}>
-        {props.data.continent}
+        {continent.continent}
       </Button>
       <Modal
         aria-labelledby="transition-modal-title"
@@ -49,24 +49,24 @@ export default function TransitionsModal(props) {
         <Fade in={open}>
           <Box sx={style}>
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              {props.data.continent}
+              {continent.continent}
             </Typography>
             <hr />
             <Typography variant="body1" component="h3" mt={2}>
-              {props.data.description}
+              {continent.description}
             </Typography>
             <Typography variant="body1" component="h3" mt={2}>
               <strong>Most popular Countries:</strong>
             </Typography>
 
-            {props.data.countries.map((country) => (
-              <Typography key={country.id} id="transition-modal-description">
+            {continent.countries.map((countryName) => (
+              <Typography key={countryName} id="transition-modal-description">
                 <Link
-                  to="/country"
-                  state={{ country }}
+                  to={`country/${countryName}`}
+                  state={{ countryName }}
                   style={{ color: "black", textDecorationLine: "none" }}
                 >
-                  {country.name}
+                  {countryName}
                 </Link>
               </Typography>
             ))}

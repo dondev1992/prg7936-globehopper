@@ -1,124 +1,65 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import { styled, alpha } from "@mui/material/styles";
-import InputBase from "@mui/material/InputBase";
-import SearchIcon from "@mui/icons-material/Search";
-
-const Search = styled("div")(({ theme }) => ({
-  position: "relative",
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor: alpha(theme.palette.common.white, 0.15),
-  "&:hover": {
-    backgroundColor: alpha(theme.palette.common.white, 0.25),
-  },
-  marginLeft: 0,
-  width: "100%",
-  [theme.breakpoints.up("sm")]: {
-    marginLeft: theme.spacing(1),
-    width: "auto",
-  },
-}));
-
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: "100%",
-  position: "absolute",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: "inherit",
-  "& .MuiInputBase-input": {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create("width"),
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      width: "12ch",
-      "&:focus": {
-        width: "20ch",
-      },
-    },
-  },
-}));
+import { AppBar, Box, Toolbar, Typography, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import AccountIcon from "./AccountIcon";
 
 export default function SearchAppBar() {
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  let navigate = useNavigate();
+
+  function logOut() {
+    localStorage.removeItem("currentUser");
+    window.location.href = "/";
+  }
+
+  function logIn() {
+    window.location.href = "/";
+  }
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" elevation="10">
         <Box>
           <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              sx={{ mr: 2 }}
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: { xs: "none", sm: "block" },
+                fontSize: "1rem",
+              }}
             >
-              <MenuIcon />
-            </IconButton>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-            >
-              GlobeHopper
-            </Typography>
-            <Box sx={{ alignSelf: "center" }}>
-              <Search>
-                <SearchIconWrapper>
-                  <SearchIcon />
-                </SearchIconWrapper>
-                <StyledInputBase
-                  placeholder="Search…"
-                  inputProps={{ "aria-label": "search" }}
-                />
-              </Search>
+              <Button
+                variant="h6"
+                component="div"
+                onClick={() => navigate("/")}
+              >
+                GlobeHopper
+              </Button>
             </Box>
 
-            <Button color="inherit">Login</Button>
+            <Box
+              display={"flex"}
+              flexDirection={"row"}
+              justifyContent={"center"}
+              alignItems={"center"}
+            >
+              {user && (
+                <Typography sx={{ mr: 2 }}>Welcome, {user.name}!</Typography>
+              )}
+              <Box>
+                {user ? (
+                  <AccountIcon logOut={logOut} />
+                ) : (
+                  <Button color="inherit" onClick={logIn}>
+                    Login
+                  </Button>
+                )}
+              </Box>
+            </Box>
           </Toolbar>
         </Box>
       </AppBar>
     </Box>
   );
 }
-
-// export default function ButtonAppBar() {
-//   return (
-//     <Box sx={{ flexGrow: 1 }}>
-//       <AppBar
-//         position="static"
-//         sx={{ backgroundColor: "purple" }}
-//         elevation={5}
-//       >
-//         <Toolbar>
-//           <IconButton
-//             size="large"
-//             edge="start"
-//             color="inherit"
-//             aria-label="menu"
-//             sx={{ mr: 2 }}
-//           >
-//             <MenuIcon />
-//           </IconButton>
-//           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-//             GlobeHopper
-//           </Typography>
-//           <Button color="inherit">Login</Button>
-//         </Toolbar>
-//       </AppBar>
-//     </Box>
-//   );
-// }
